@@ -29,7 +29,7 @@ export const RootLayout= ({ children }: {
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
-      <main className={`${inter.className} bg-[url('/bggrid.svg')] bg-repeat bg-black z-0 relative scroll-smooth`}>
+      <main className={`${inter.className} bg-[url('/bggrid.svg')] bg-repeat bg-black z-0 relative`}>
         {children}
       </main>
     </>
