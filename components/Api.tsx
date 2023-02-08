@@ -11,6 +11,7 @@ export const Api = () => (
       src="/apicircle.svg"
       width={910}
       height={910}
+      priority
     />
   </section>
 )

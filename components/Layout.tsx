@@ -14,6 +14,7 @@ export const RootLayout= ({ children }: {
         <meta name="description" content="This is a design test by Andrés Bedoya for Monogram." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#ffffff" />
+        <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png" />
         <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png" />
         <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png" />
@@ -28,7 +29,7 @@ export const RootLayout= ({ children }: {
         <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png" />
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
-      <main className={`${inter.className} bg-[url('/bggrid.svg')] bg-repeat bg-black z-0 relative`}>
+      <main className={`${inter.className} bg-[url('/bggrid.svg')] bg-repeat bg-black z-0 relative scroll-smooth`}>
         {children}
       </main>
     </>
